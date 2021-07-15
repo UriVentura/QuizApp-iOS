@@ -14,8 +14,9 @@
 		16746B0B1FBCCE7D0086650B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16746B0A1FBCCE7D0086650B /* ViewController.swift */; };
 		16746B0E1FBCCE7D0086650B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16746B0C1FBCCE7D0086650B /* Main.storyboard */; };
 		16746B131FBCCE7D0086650B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16746B111FBCCE7D0086650B /* LaunchScreen.storyboard */; };
-		16746B1E1FBCCE7D0086650B /* ACT3_PickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16746B1D1FBCCE7D0086650B /* ACT3_PickerViewTests.swift */; };
-		16746B291FBCCE7E0086650B /* ACT3_PickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16746B281FBCCE7E0086650B /* ACT3_PickerViewUITests.swift */; };
+		16746B1E1FBCCE7D0086650B /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16746B1D1FBCCE7D0086650B /* QuizAppTests.swift */; };
+		16746B291FBCCE7E0086650B /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16746B281FBCCE7E0086650B /* QuizAppUITests.swift */; };
+		67118EBE26A0784F0021C143 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67118EBD26A0784E0021C143 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +46,13 @@
 		16746B0D1FBCCE7D0086650B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16746B121FBCCE7D0086650B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16746B141FBCCE7D0086650B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16746B191FBCCE7D0086650B /* ACT3-PickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACT3-PickerViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		16746B1D1FBCCE7D0086650B /* ACT3_PickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT3_PickerViewTests.swift; sourceTree = "<group>"; };
+		16746B191FBCCE7D0086650B /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16746B1D1FBCCE7D0086650B /* QuizAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppTests.swift; sourceTree = "<group>"; };
 		16746B1F1FBCCE7D0086650B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16746B241FBCCE7D0086650B /* ACT3-PickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACT3-PickerViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		16746B281FBCCE7E0086650B /* ACT3_PickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACT3_PickerViewUITests.swift; sourceTree = "<group>"; };
+		16746B241FBCCE7D0086650B /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16746B281FBCCE7E0086650B /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		16746B2A1FBCCE7E0086650B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67118EBD26A0784E0021C143 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,10 @@
 		16746AFC1FBCCE7D0086650B = {
 			isa = PBXGroup;
 			children = (
-				16746B071FBCCE7D0086650B /* ACT3-PickerView */,
-				16746B1C1FBCCE7D0086650B /* ACT3-PickerViewTests */,
-				16746B271FBCCE7E0086650B /* ACT3-PickerViewUITests */,
+				67118EBD26A0784E0021C143 /* Default-568h@2x.png */,
+				16746B071FBCCE7D0086650B /* QuizApp */,
+				16746B1C1FBCCE7D0086650B /* QuizAppTests */,
+				16746B271FBCCE7E0086650B /* QuizAppUITests */,
 				16746B061FBCCE7D0086650B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,13 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				16746B051FBCCE7D0086650B /* QuizApp.app */,
-				16746B191FBCCE7D0086650B /* ACT3-PickerViewTests.xctest */,
-				16746B241FBCCE7D0086650B /* ACT3-PickerViewUITests.xctest */,
+				16746B191FBCCE7D0086650B /* QuizAppTests.xctest */,
+				16746B241FBCCE7D0086650B /* QuizAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16746B071FBCCE7D0086650B /* ACT3-PickerView */ = {
+		16746B071FBCCE7D0086650B /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
 				165CAF951FBF680600A25079 /* Assets.xcassets */,
@@ -110,33 +113,33 @@
 				165CAF911FBF60F000A25079 /* QAViewController.swift */,
 				1651D8B71FCEF34A00E42AEB /* PopUpViewController.swift */,
 			);
-			path = "ACT3-PickerView";
+			path = QuizApp;
 			sourceTree = "<group>";
 		};
-		16746B1C1FBCCE7D0086650B /* ACT3-PickerViewTests */ = {
+		16746B1C1FBCCE7D0086650B /* QuizAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				16746B1D1FBCCE7D0086650B /* ACT3_PickerViewTests.swift */,
+				16746B1D1FBCCE7D0086650B /* QuizAppTests.swift */,
 				16746B1F1FBCCE7D0086650B /* Info.plist */,
 			);
-			path = "ACT3-PickerViewTests";
+			path = QuizAppTests;
 			sourceTree = "<group>";
 		};
-		16746B271FBCCE7E0086650B /* ACT3-PickerViewUITests */ = {
+		16746B271FBCCE7E0086650B /* QuizAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				16746B281FBCCE7E0086650B /* ACT3_PickerViewUITests.swift */,
+				16746B281FBCCE7E0086650B /* QuizAppUITests.swift */,
 				16746B2A1FBCCE7E0086650B /* Info.plist */,
 			);
-			path = "ACT3-PickerViewUITests";
+			path = QuizAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16746B041FBCCE7D0086650B /* ACT3-PickerView */ = {
+		16746B041FBCCE7D0086650B /* QuizApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16746B2D1FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "ACT3-PickerView" */;
+			buildConfigurationList = 16746B2D1FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "QuizApp" */;
 			buildPhases = (
 				16746B011FBCCE7D0086650B /* Sources */,
 				16746B021FBCCE7D0086650B /* Frameworks */,
@@ -146,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = "ACT3-PickerView";
+			name = QuizApp;
 			productName = "ACT3-PickerView";
 			productReference = 16746B051FBCCE7D0086650B /* QuizApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		16746B181FBCCE7D0086650B /* ACT3-PickerViewTests */ = {
+		16746B181FBCCE7D0086650B /* QuizAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16746B301FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "ACT3-PickerViewTests" */;
+			buildConfigurationList = 16746B301FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "QuizAppTests" */;
 			buildPhases = (
 				16746B151FBCCE7D0086650B /* Sources */,
 				16746B161FBCCE7D0086650B /* Frameworks */,
@@ -164,14 +167,14 @@
 			dependencies = (
 				16746B1B1FBCCE7D0086650B /* PBXTargetDependency */,
 			);
-			name = "ACT3-PickerViewTests";
+			name = QuizAppTests;
 			productName = "ACT3-PickerViewTests";
-			productReference = 16746B191FBCCE7D0086650B /* ACT3-PickerViewTests.xctest */;
+			productReference = 16746B191FBCCE7D0086650B /* QuizAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		16746B231FBCCE7D0086650B /* ACT3-PickerViewUITests */ = {
+		16746B231FBCCE7D0086650B /* QuizAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16746B331FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "ACT3-PickerViewUITests" */;
+			buildConfigurationList = 16746B331FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "QuizAppUITests" */;
 			buildPhases = (
 				16746B201FBCCE7D0086650B /* Sources */,
 				16746B211FBCCE7D0086650B /* Frameworks */,
@@ -182,9 +185,9 @@
 			dependencies = (
 				16746B261FBCCE7D0086650B /* PBXTargetDependency */,
 			);
-			name = "ACT3-PickerViewUITests";
+			name = QuizAppUITests;
 			productName = "ACT3-PickerViewUITests";
-			productReference = 16746B241FBCCE7D0086650B /* ACT3-PickerViewUITests.xctest */;
+			productReference = 16746B241FBCCE7D0086650B /* QuizAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -194,7 +197,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Uri Ventura";
 				TargetAttributes = {
 					16746B041FBCCE7D0086650B = {
@@ -214,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16746B001FBCCE7D0086650B /* Build configuration list for PBXProject "ACT3-PickerView" */;
+			buildConfigurationList = 16746B001FBCCE7D0086650B /* Build configuration list for PBXProject "QuizApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16746B041FBCCE7D0086650B /* ACT3-PickerView */,
-				16746B181FBCCE7D0086650B /* ACT3-PickerViewTests */,
-				16746B231FBCCE7D0086650B /* ACT3-PickerViewUITests */,
+				16746B041FBCCE7D0086650B /* QuizApp */,
+				16746B181FBCCE7D0086650B /* QuizAppTests */,
+				16746B231FBCCE7D0086650B /* QuizAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16746B131FBCCE7D0086650B /* LaunchScreen.storyboard in Resources */,
+				67118EBE26A0784F0021C143 /* Default-568h@2x.png in Resources */,
 				165CAF961FBF680600A25079 /* Assets.xcassets in Resources */,
 				16746B0E1FBCCE7D0086650B /* Main.storyboard in Resources */,
 			);
@@ -277,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16746B1E1FBCCE7D0086650B /* ACT3_PickerViewTests.swift in Sources */,
+				16746B1E1FBCCE7D0086650B /* QuizAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16746B291FBCCE7E0086650B /* ACT3_PickerViewUITests.swift in Sources */,
+				16746B291FBCCE7E0086650B /* QuizAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		16746B1B1FBCCE7D0086650B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16746B041FBCCE7D0086650B /* ACT3-PickerView */;
+			target = 16746B041FBCCE7D0086650B /* QuizApp */;
 			targetProxy = 16746B1A1FBCCE7D0086650B /* PBXContainerItemProxy */;
 		};
 		16746B261FBCCE7D0086650B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16746B041FBCCE7D0086650B /* ACT3-PickerView */;
+			target = 16746B041FBCCE7D0086650B /* QuizApp */;
 			targetProxy = 16746B251FBCCE7D0086650B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,6 +342,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -345,6 +350,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -395,6 +401,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -402,6 +409,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -438,11 +446,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26U28CZJTX;
-				INFOPLIST_FILE = "ACT3-PickerView/Info.plist";
+				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uriventura.QuizApp;
 				PRODUCT_NAME = QuizApp;
-				SWIFT_OBJC_BRIDGING_HEADER = "ACT3-PickerView/ACT3-PickerView-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuizApp/QuizApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,11 +464,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26U28CZJTX;
-				INFOPLIST_FILE = "ACT3-PickerView/Info.plist";
+				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uriventura.QuizApp;
 				PRODUCT_NAME = QuizApp;
-				SWIFT_OBJC_BRIDGING_HEADER = "ACT3-PickerView/ACT3-PickerView-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuizApp/QuizApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,13 +481,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26U28CZJTX;
-				INFOPLIST_FILE = "ACT3-PickerViewTests/Info.plist";
+				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uriventura.ACT3-PickerViewTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriventura.QuizAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACT3-PickerView.app/ACT3-PickerView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
 			};
 			name = Debug;
 		};
@@ -490,13 +498,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26U28CZJTX;
-				INFOPLIST_FILE = "ACT3-PickerViewTests/Info.plist";
+				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uriventura.ACT3-PickerViewTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriventura.QuizAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACT3-PickerView.app/ACT3-PickerView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
 			};
 			name = Release;
 		};
@@ -506,13 +514,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26U28CZJTX;
-				INFOPLIST_FILE = "ACT3-PickerViewUITests/Info.plist";
+				INFOPLIST_FILE = QuizAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uriventura.ACT3-PickerViewUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriventura.QuizAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ACT3-PickerView";
+				TEST_TARGET_NAME = QuizApp;
 			};
 			name = Debug;
 		};
@@ -522,20 +530,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26U28CZJTX;
-				INFOPLIST_FILE = "ACT3-PickerViewUITests/Info.plist";
+				INFOPLIST_FILE = QuizAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uriventura.ACT3-PickerViewUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uriventura.QuizAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ACT3-PickerView";
+				TEST_TARGET_NAME = QuizApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16746B001FBCCE7D0086650B /* Build configuration list for PBXProject "ACT3-PickerView" */ = {
+		16746B001FBCCE7D0086650B /* Build configuration list for PBXProject "QuizApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16746B2B1FBCCE7E0086650B /* Debug */,
@@ -544,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16746B2D1FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "ACT3-PickerView" */ = {
+		16746B2D1FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "QuizApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16746B2E1FBCCE7E0086650B /* Debug */,
@@ -553,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16746B301FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "ACT3-PickerViewTests" */ = {
+		16746B301FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16746B311FBCCE7E0086650B /* Debug */,
@@ -562,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16746B331FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "ACT3-PickerViewUITests" */ = {
+		16746B331FBCCE7E0086650B /* Build configuration list for PBXNativeTarget "QuizAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16746B341FBCCE7E0086650B /* Debug */,
